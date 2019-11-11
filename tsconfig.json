@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": false,
+    "target": "es6",
+    "module": "system",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "lib": [
+      "es2015",
+      "es2017",
+      "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
+    "jsx": "react",
+    "allowJs": true,
+    "checkJs": false
+  }
+}
